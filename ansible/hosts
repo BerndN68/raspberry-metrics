@@ -1,4 +1,5 @@
 [main-raspberry]
-192.168.0.36
+
 
 [additional-raspberries]
+192.xxx.xxx.xxx
