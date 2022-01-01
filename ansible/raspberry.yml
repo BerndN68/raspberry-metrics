@@ -8,12 +8,12 @@
   roles:
   - { role: 'rpi-exporter', tags: 'rpi-exporter' }
 
-- name: Install Prometheus service
-  hosts: main-raspberry
-  roles:
-  - { role: 'prometheus', tags: 'prometheus' }
+#- name: Install Prometheus service
+#  hosts: main-raspberry
+#  roles:
+#  - { role: 'prometheus', tags: 'prometheus' }
 
-- name: Install Grafana service
-  hosts: main-raspberry
-  roles:
-  - { role: 'grafana', tags: 'grafana' }
+#- name: Install Grafana service
+#  hosts: main-raspberry
+#  roles:
+#  - { role: 'grafana', tags: 'grafana' }
